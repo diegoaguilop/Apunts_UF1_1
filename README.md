@@ -30,7 +30,7 @@ El "Disc dur" emmagatzema de forma permanent els archius executables i els archi
 
 ### **Fases principals de Desenvolupament de software**
 
-***++ANÀLISI:++*** Es determina i defineix clarament les necessitats del client i s'especifica els requisits que ha de complir el programari a desenvolupar.
+***ANÀLISI:*** Es determina i defineix clarament les necessitats del client i s'especifica els requisits que ha de complir el programari a desenvolupar.
 
 - L'especificació de requisits ha de:
     - Ser completa i sense omissions.
@@ -42,7 +42,7 @@ El "Disc dur" emmagatzema de forma permanent els archius executables i els archi
     - Dividir i jerarquitzar el model.
     - Fixar criteris de validació.
 
-***++DISSENY:++*** Es descompon i organitza el sistema en elements que poden ser desenvolupats per separat.
+***DISSENY:*** Es descompon i organitza el sistema en elements que poden ser desenvolupats per separat.
 
 - Les activitats habituals són les següents:
     - Disseny arquitectònic.
@@ -50,19 +50,19 @@ El "Disc dur" emmagatzema de forma permanent els archius executables i els archi
     - Disseny de dades.
     - Disseny d'interfície.
 
-***++CODIFICACIÓ:++*** S'escriu el codi font de cada component.
+***CODIFICACIÓ:*** S'escriu el codi font de cada component.
 
 - Es poden utilitzar diferents llenguatges informàtics:
     - Llenguatges de programació : C, C ++, Java, Javascript, ...
     - Llenguatges d'un altre tipus : HTML, XML, ...
 
-***++PROVES:++*** El objectiu de les proves ha de ser aconseguir que el programa funcioni incorrectament i que es descobreixin defectes, haurem que sotmetre a el programa a el màxim nombre de situacions diferents.
+***PROVES:*** El objectiu de les proves ha de ser aconseguir que el programa funcioni incorrectament i que es descobreixin defectes, haurem que sotmetre a el programa a el màxim nombre de situacions diferents.
 
-***++MANTENIMENT:++*** Durant l'explotació de sistema programari és necessari realitzar canvis ocasionals, per a això cal refer part de la feina feta en les fases prèvies.
+***MANTENIMENT:*** Durant l'explotació de sistema programari és necessari realitzar canvis ocasionals, per a això cal refer part de la feina feta en les fases prèvies.
 
 - Tipus de manteniment:
     - Correctiu : Es corregeixen defectes.
     - Perfectiu : Es millora la funcionalitat.
     - Evolutiu : S'afegeix funcionalitats noves.
     - Adaptatiu : S'adapta a nous entorns.
-
+----------------------
