@@ -17,7 +17,7 @@
 * **Perifèrics d'entrada / sortida:** Recull noves dades des de l'entrada i es mostren els resultats.
 
 ```sh
-El **Disc dur** emmagatzema de forma permanent els archius executables i els archius de dades mentre que la **Memoria RAM** emmagatzema de forma temporal els archius executables.
+El "Disc dur" emmagatzema de forma permanent els archius executables i els archius de dades mentre que la "Memoria RAM" emmagatzema de forma temporal els archius executables, després la "CPU" les llegeix i les executa.
 ```
 --------------------------
 
