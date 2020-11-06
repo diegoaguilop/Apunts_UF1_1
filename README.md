@@ -19,10 +19,11 @@
 ```sh
 El "Disc dur" emmagatzema de forma permanent els archius executables i els archius de dades mentre que la "Memoria RAM" emmagatzema de forma temporal els archius executables, després la "CPU" les llegeix i les executa.
 ```
---------------------------
+----------------------
 
 ### **Tipús de codi**
 
 * **Codi font:** Es el archiu de text lellible en llenguatge de programació.
 * **Codi objecte:** Es el archiu binari que no es pot executar, diguem que es el intermig entre els dos.
 * **Codi executable:** Es el archiu binari que finalment es por executar.
+----------------------
