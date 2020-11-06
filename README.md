@@ -1,6 +1,6 @@
 # **Apunts_UF1_1**
 
-## **ELEMENTS DEL DESENVOLUPAMENT DE PROGRAMARI**
+## **ELEMENTS DEL DESENVOLUPAMENT DE SOFTWARE**
 
 ### **Tipús de software**
 
@@ -27,3 +27,42 @@ El "Disc dur" emmagatzema de forma permanent els archius executables i els archi
 * **Codi objecte:** Es el archiu binari que no es pot executar, diguem que es el intermig entre els dos.
 * **Codi executable:** Es el archiu binari que finalment es por executar.
 ----------------------
+
+### **Fases principals de Desenvolupament de software**
+
+***++ANÀLISI:++*** Es determina i defineix clarament les necessitats del client i s'especifica els requisits que ha de complir el programari a desenvolupar.
+
+- L'especificació de requisits ha de:
+    - Ser completa i sense omissions.
+    - Ser concisa i sense trivialitats.
+    - evitar ambigüitats.
+    - Evitar detalls de disseny o implementació.
+    - Ser comprensible pel client.
+    - Separar requisits funcionals i no funcionals.
+    - Dividir i jerarquitzar el model.
+    - Fixar criteris de validació.
+
+***++DISSENY:++*** Es descompon i organitza el sistema en elements que poden ser desenvolupats per separat.
+
+- Les activitats habituals són les següents:
+    - Disseny arquitectònic.
+    - Disseny detallat.
+    - Disseny de dades.
+    - Disseny d'interfície.
+
+***++CODIFICACIÓ:++*** S'escriu el codi font de cada component.
+
+- Es poden utilitzar diferents llenguatges informàtics:
+    - Llenguatges de programació : C, C ++, Java, Javascript, ...
+    - Llenguatges d'un altre tipus : HTML, XML, ...
+
+***++PROVES:++*** El objectiu de les proves ha de ser aconseguir que el programa funcioni incorrectament i que es descobreixin defectes, haurem que sotmetre a el programa a el màxim nombre de situacions diferents.
+
+***++MANTENIMENT:++*** Durant l'explotació de sistema programari és necessari realitzar canvis ocasionals, per a això cal refer part de la feina feta en les fases prèvies.
+
+- Tipus de manteniment:
+    - Correctiu : Es corregeixen defectes.
+    - Perfectiu : Es millora la funcionalitat.
+    - Evolutiu : S'afegeix funcionalitats noves.
+    - Adaptatiu : S'adapta a nous entorns.
+
