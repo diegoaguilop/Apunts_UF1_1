@@ -26,7 +26,7 @@ després la "CPU" les llegeix i les executa.
 ### **Tipús de codi**
 
 * **Codi font:** Es el archiu de text lellible en llenguatge de programació.
-* **Codi objecte:** Es el archiu binari que no es pot executar, diguem que es el intermig entre els dos.
+* **Codi objecte:** Es el archiu binari que no es pot executar, diguem que es el intermig entre els dos perque transforma el codi alfanumeric a codi binari perque es pugui executar.
 * **Codi executable:** Es el archiu binari que finalment es por executar.
 ----------------------
 
