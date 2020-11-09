@@ -103,7 +103,7 @@ després la "CPU" les llegeix i les executa.
 
 ![](model_v.png)
 
-#### **Model de construcció de prototips**
+#### **Prototips**
 * Els requisits no estan especificats clarament:
     * Per no tenir experiència prèvia.
     * Per falta de concreció del client.
