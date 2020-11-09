@@ -69,4 +69,109 @@ després la "CPU" les llegeix i les executa.
     - Adaptatiu : S'adapta a nous entorns.
 ----------------------
 
+### **Resultats després de cada fase**
+* **Enginyeria de sistemes:** Especificació de sistema.
+* **ANÀLISI:** Especificació de requisits de programari.
+* **DISSENY arquitectònic:** Document d'arquitectura de programari.
+* **DISSENY detallat:** Especificació de mòduls i funcions.
+* **CODIFICACIÓ:** Codi font.
+* **PROVES d'unitats:** Mòduls utilitzables.
+* **PROVES d'integració:** Sistema utilitzable.
+* **PROVES de sistema:** Sistema acceptat.
+* **Documentació:** Documentació tècnica i d'usuari.
+* **MANTENIMENT:** Informes d'errors i control de canvis.
+----------------------
 
+### **MODELS DE DESENVOLUPAMENT DE PROGRAMARI**
+
+#### **Models clàssics (predictius)**
+* **Model en cascada:**
+    * Model de major antiguitat.
+    * Identifica les fases principals de desenvolupament programari.
+    * Les fases s'han de fer en l'ordre indicat.
+    * El resultat d'una fase és l'entrada de la següent fase.
+    * És un model bastant rígid que no s'adapta molt be a canvis continus.
+
+![](model_cascada.png)
+
+* **Model en V:**
+    * Model molt semblant a el model en cascada.
+    * Visió jerarquitzada amb diferents nivells.
+    * Els nivells superiors indiquen major abstracció (coses més generals).
+    * Els nivells inferiors indiquen major nivell de detall (coses més exactes).
+    * El resultat d'una fase és l'entrada de la següent fase.
+
+![](model_v.png)
+
+#### **Model de construcció de prototips**
+* Els requisits no estan especificats clarament:
+    * Per no tenir experiència prèvia.
+    * Per falta de concreció del client.
+
+![](model_prototip.png)
+
+* Procés:
+    * Durant la **fase d'anàlisi** es crea un prototip perque el client pugui probar-lo per refinar els requisits de programari a desenvolupar segons el client.
+    * Es repeteix el pas anterior les vegades necessàries fins que el client estigui satisfet amb el prototip per començar amb el model final.
+
+* Tipus de prototips:
+    * **Prototips ràpids:** El prototip pot estar desenvolupat usant un altre llenguatge i / o eines i finalment el prototip es rebutja.
+    * **Prototips evolutius:** El prototip està dissenyat en el mateix llenguatge i eines de el projecte i el prototip es fa servir com a base per desenvolupar el projecte.
+
+#### **Models evolutius o incrementals**
+* **Model en espiral (iteratius):** Va ser desenvolupada per Boehm en el 1988. Es una comunicació continua amb el client (es fan totes les fases amb el client).
+
+![](model_espiral.png)
+
+* **Metodologies àgils (adaptatius):**
+    * Són mètodes d'enginyeria de programari basats en el desenvolupament iteratiu i incremental.
+    * Els requisits i solucions evolucionen amb el temps segons la necessitat de el projecte.
+    * El treball és realitzat mitjançant la col·laboració d'equips auto-organitzats i multidisciplinaris (Que engloba diverses disciplines.), immersos en un procés compartit de presa de decisions.
+
+    **Desenvolupament Àgil:**
+    * **Individus i interaccions** sobre processos i eines.
+    * **Programari funcionant** sobre documentació extensiva.
+    * **Col·laboració amb el client** sobre negociació contractual.
+    * **Resposta davant el canvi** sobre seguir un pla.
+
+Les metodologies àgils més conegudes són:
+* **Kanban:**
+    * També es denomina "**sistema de targetes**".
+    * Va ser desenvolupat inicialment per **Toyota** per a la indústria de fabricació de productes .
+    
+    ![](model_agil_kanban.png)
+
+* **Scrum:**
+    * Model de desenvolupament incremental.
+    * Iteracions (**sprint**) **regulars** cada 2, 3 o 4 setmanes.
+    * A el principi de cada iteració s'estableixen els seus **objectius prioritzats** (**sprint backlog**).
+    * Hi reunions diàries per tractar la marxa de l'***esprint***.
+    
+    ![](model_agil_scrum.png)
+
+    * **Rols principals:**
+        * **Product Owner:** És "la veu de el client". Defineix criteris d'acceptació i assegura que es compleixin.
+        * **Scrum Màster:** Assegura que se segueix la metodologia Scrum. Motiva i facilita el treball de l'equip.
+        * **Team:** Equip de desenvolupament auto-organitzat i multifuncional. Entre 6 i 10 membres.
+    * **Artefactes:**
+        * **Product backlog:** Llista ordenada amb els requisits del producte
+        * **Sprint backlog:** Llista de requisits trets de l'backlog per al seu desenvolupament durant l'esprint
+        * **Increment:** Estat del producte després de cada esprint
+    * **Esdeveniments:**
+        * **Sprint:** Esdeveniment principal, que conté a la resta d'esdeveniments. Duracción màxima: 1 mes.
+        * **Sprint Planning:** Reunió inicial on es planifica el treball de l'Sprint. Durada màxima: 8 hores.
+        * **Daily Scrum:** Reunió diària de posada en comú sobre la marxa de l'esprint. Durada màxima: 15 minuts.
+        * **Scrum Review:** Reunió final per avaluar l'increment obtingut. Durada màxima: 4 hores.
+        * **Scrum Retrospective:** Reunió final per avaluar la correcta aplicació de la metodologia Scrum. Durada màxima: 3 hores.
+        
+* **XP (PROGRAMACIÓ EXTREMA):**
+    * Disseny senzill.
+    * Petites millores contínues.
+    * Proves i refactorització.
+    * Integració contínua.
+    * **Programació per parelles**.
+    * **El client s'integra en l'equip de desenvolupament**.
+    * Propietat de el codi compartida.
+    * Estàndards de codificació.
+    * 40 hores setmanals.
+----------------------
