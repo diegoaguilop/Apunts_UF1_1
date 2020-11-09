@@ -68,3 +68,5 @@ després la "CPU" les llegeix i les executa.
     - Evolutiu : S'afegeix funcionalitats noves.
     - Adaptatiu : S'adapta a nous entorns.
 ----------------------
+
+![model_cascada.png]
