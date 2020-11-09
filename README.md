@@ -69,4 +69,4 @@ després la "CPU" les llegeix i les executa.
     - Adaptatiu : S'adapta a nous entorns.
 ----------------------
 
-![](model_cascada.png)
+
