@@ -233,4 +233,5 @@ Per obtenir codi binari executable tenim 2 opcions:
 - Reusabilitat.
 - Portabilitat.
 - Imposició de el client.
-(El que sigui més fàcil i còmode per a tu.)
+
+***(El que sigui més fàcil i còmode per a tu.)***
