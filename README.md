@@ -175,3 +175,64 @@ Les metodologies àgils més conegudes són:
     * Estàndards de codificació.
     * 40 hores setmanals.
 ----------------------
+
+## **LLENGUATGES DE PROGRAMACIÓ**
+
+### **Obtenció de codi executable**
+
+Per obtenir codi binari executable tenim 2 opcions:
+* **Llenguatge compilat:** És un llenguatge de programació que tradueix un programa escrit en llenguatge de programació un altre llenguatge de programació això fa que la execució sigui molt eficient, generant un programa d'equivalent que la màquina sigui capaç d'interpretar.
+    * Exemples: C, C++.
+    * Principal avantatge: Execució molt eficient.
+    * Principal desavantatge: Cal compilar cada vegada que el codi font és modificat.
+
+* **Llenguatge interpretat:** És un llenguatge de programació que està dissenyat per ser executat per un intèrpret ja que el codi font s’interpreta directament, en contrast amb els llenguatges compilats.
+    * Exemples: PHP, Javascript.
+    * Principal avantatge: El codi font s'interpreta directament.
+    * Principal desavantatge: Execució menys eficient.
+
+### **Procés de Compilació / Interpretació**
+
+* La compilació / interpretació de el codi font es porta a terme en dues fases:
+    * Anàlisi lèxic
+    * Anàlisi sintàctica
+* Si no hi ha errors, es genera el codi objecte corresponent.
+* Un codi font correctament escrit no vol dir que funcioni segons el desitjat.
+* No es realitza una anàlisi semàntic.
+
+### **Tipus**
+
+#### ***Segons la forma en què operen:***
+
+**Llenguatge imperatiu:** El llenguatge imperatiu indica els passos a seguir per obtenir un resultat.
+- Imperatius:
+	- Estructurats: C.
+	- Orientats a objectes: Java.
+	- Multiparadigma: C ++, Javascript.
+    - **Molts d'aquests llenguatges són compilats.**
+    
+**Llenguatge declaratiu:** El llenguatge declaratiu indica el resultat sense especificar els passos que a seguit.
+- Declaratius:
+	- Lògics: Utilitzen regles. Exemple: Prolog.
+	- Funcionals: Utilitzen funcions. Exemple: Lisp, Haskell.
+	- Algebraics: Utilitzen sentències. Exemple: SQL.
+    - **Normalment són llenguatges interpretats.**
+
+#### ***Tipus de llenguatges segons nivell d'abstracció:***
+
+* **Baix nivell:** Assemblador.
+* **Medi nivell:** C.
+* **Alt nivell:** C++, Java.
+----------------------
+
+## **CRITERIS PER A LA SELECCIÓ D'UN LLENGUATGE**
+
+- Camp d'aplicació.
+- Experiència prèvia.
+- Eines de desenvolupament.
+- Documentació disponible.
+- Base d'usuaris.
+- Reusabilitat.
+- Portabilitat.
+- Imposició de el client.
+(El que sigui més fàcil i còmode per a tu.)
