@@ -204,15 +204,13 @@ Per obtenir codi binari executable tenim 2 opcions:
 
 #### ***Segons la forma en què operen:***
 
-**Llenguatge imperatiu:** El llenguatge imperatiu indica els passos a seguir per obtenir un resultat.
-- Imperatius:
+* **Llenguatge imperatiu:** El llenguatge imperatiu indica els passos a seguir per obtenir un resultat.
 	- Estructurats: C.
 	- Orientats a objectes: Java.
 	- Multiparadigma: C ++, Javascript.
     - **Molts d'aquests llenguatges són compilats.**
     
-**Llenguatge declaratiu:** El llenguatge declaratiu indica el resultat sense especificar els passos que a seguit.
-- Declaratius:
+* **Llenguatge declaratiu:** El llenguatge declaratiu indica el resultat sense especificar els passos que a seguit.
 	- Lògics: Utilitzen regles. Exemple: Prolog.
 	- Funcionals: Utilitzen funcions. Exemple: Lisp, Haskell.
 	- Algebraics: Utilitzen sentències. Exemple: SQL.
